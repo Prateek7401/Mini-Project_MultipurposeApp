@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextME"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="107dp"
+        android:background="@android:color/holo_orange_dark"
+        android:ems="10"
+        android:hint="Enter Your Number"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextME2"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@+id/editTextME"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+
+
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_orange_dark"
+        android:hint="Enter Your Message"
+        android:inputType="textMultiLine"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextME2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="68dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/buttonME2"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonME"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/purple_200"
+        android:text="Back to Menu" />
+    </RelativeLayout>
+
+</ScrollView>

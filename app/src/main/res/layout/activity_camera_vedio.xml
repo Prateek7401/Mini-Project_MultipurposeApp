@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraVedio">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/buttonCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoViewCV"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Click Here to Capture Vedio" />
+
+    <Button
+        android:id="@+id/buttonCV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCV"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Back To Menu" />
+
+    <VideoView
+        android:id="@+id/videoViewCV"
+        android:layout_width="392dp"
+        android:layout_height="485dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp" />
+    </RelativeLayout>
+</ScrollView>

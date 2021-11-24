@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wifi">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/buttonW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="107dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Wifi Off" />
+
+    <Button
+        android:id="@+id/buttonW2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewW"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="106dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="Wifi ON" />
+
+    <Button
+        android:id="@+id/buttonW3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonW2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Back to Menu" />
+
+    <ImageView
+        android:id="@+id/imageViewW"
+        android:layout_width="396dp"
+        android:layout_height="228dp"
+        android:layout_below="@+id/buttonW"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="5dp"
+        app:srcCompat="@drawable/woff" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.multipurposeapp">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="MultiPurpose App"
+        android:roundIcon="@mipmap/ic_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NetCampProject">
+        <activity android:name="com.example.multipurposeapp.Feedback"></activity>
+        <activity android:name="com.example.multipurposeapp.Message" />
+        <activity
+            android:name="com.example.multipurposeapp.Call"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.CameraVedio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Wifi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Vedio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Browser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Music"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Camera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Bluetooth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Torch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Calci"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Normal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Otp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.LoginOffline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.Offline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.GmailLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.NormalLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.multipurposeapp.OtpLogin"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.multipurposeapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

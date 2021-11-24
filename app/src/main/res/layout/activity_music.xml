@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Music">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/buttonM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Play Song" />
+
+    <Button
+        android:id="@+id/buttonM2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewM"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Stop Song" />
+
+    <ImageView
+        android:id="@+id/imageViewM"
+        android:layout_width="416dp"
+        android:layout_height="291dp"
+        android:layout_below="@+id/buttonM"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/mu" />
+
+    <Button
+        android:id="@+id/buttonM3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonM2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Back to Menu" />
+    </RelativeLayout>
+
+</ScrollView>

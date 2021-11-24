@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "87318365535",
+    "project_id": "multipurposeapp-8314e",
+    "storage_bucket": "multipurposeapp-8314e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87318365535:android:98f9860bc864b6fbf262ea",
+        "android_client_info": {
+          "package_name": "com.example.netcampproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87318365535-jd07arvj2v5p2tv9at5rbamohi9b4tbi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.netcampproject",
+            "certificate_hash": "560cd2defba1f4f206c78dc631baaba11620ad79"
+          }
+        },
+        {
+          "client_id": "87318365535-f7rb27lj8bi586gti101agffprloa2d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnsM8yhdg7hN_GGfEOS66YXIo8ZHgLmfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87318365535-f7rb27lj8bi586gti101agffprloa2d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonM"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/calculator_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="50dp"
+
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM"
+            android:layout_toRightOf="@id/imageButtonM"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/flash"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM2"
+            android:layout_toRightOf="@+id/imageButtonM2"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/bluetooth_icon"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="274dp"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/camera_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM2"
+            android:layout_alignParentTop="false"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM4"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/music_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM3"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM5"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/vibration_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/browser_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM5"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM7"
+            android:background="@color/white"
+            android:textAlignment="gravity"
+            app:srcCompat="@mipmap/vedioplayer_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM6"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM8"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/wifi" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM7"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/video_recorder_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM8"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM10"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/call_icon">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/imageButtonM12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM9"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/imageButtonM11"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/message_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="37dp"
+            android:background="@color/white"
+            app:srcCompat="@mipmap/feedback_icon" />
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="210dp"
+            android:layout_height="79dp"
+            android:layout_below="@+id/imageButtonM11"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="85dp"
+            android:layout_toEndOf="@+id/imageButtonM13"
+            android:background="#3F51B5"
+            android:text="Logout"
+            android:textColor="#E91E63"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
