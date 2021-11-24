@@ -11,4 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="enter_your_2nd_number">Enter Your 2nd Number</string>
     <string name="title_activity_vibrator">Vibrator</string>
+    <string name="heading">Welcome to Tic-Tac-Toe</string>
+    <string name="grid">Our Main Grid</string>
+    <string name="status">Tap to Play</string>
 </resources>

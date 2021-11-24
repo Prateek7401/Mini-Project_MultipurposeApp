@@ -176,26 +176,39 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="false"
             android:layout_alignParentRight="false"
-            android:layout_marginStart="31dp"
-            android:layout_marginTop="37dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
             android:background="@color/white"
             app:srcCompat="@mipmap/feedback_icon" />
 
         <Button
             android:id="@+id/buttonLogout"
-            android:layout_width="210dp"
-            android:layout_height="79dp"
-            android:layout_below="@+id/imageButtonM11"
+            android:layout_width="132dp"
+            android:layout_height="76dp"
+            android:layout_below="@+id/imageButtonM12"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="38dp"
-            android:layout_marginEnd="31dp"
-            android:layout_marginRight="85dp"
-            android:layout_toEndOf="@+id/imageButtonM13"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="33dp"
+            android:layout_toEndOf="@+id/imageButtontic"
             android:background="#3F51B5"
             android:text="Logout"
             android:textColor="#E91E63"
             android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imageButtontic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/imageButtonM11"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="-24dp"
+            android:layout_toEndOf="@+id/imageButtonM13"
+            app:srcCompat="@mipmap/tic_tac" />
 
 
     </RelativeLayout>

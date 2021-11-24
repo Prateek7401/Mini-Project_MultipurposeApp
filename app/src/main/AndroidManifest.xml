@@ -20,63 +20,66 @@
         android:roundIcon="@mipmap/ic_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NetCampProject">
-        <activity android:name="com.example.multipurposeapp.Feedback"></activity>
-        <activity android:name="com.example.multipurposeapp.Message" />
         <activity
-            android:name="com.example.multipurposeapp.Call"
+            android:name=".Tic_Tac1"
+            android:exported="false" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Message" />
+        <activity
+            android:name=".Call"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.CameraVedio"
+            android:name=".CameraVedio"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Wifi"
+            android:name=".Wifi"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Vedio"
+            android:name=".Vedio"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Browser"
+            android:name=".Browser"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Music"
+            android:name=".Music"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Camera"
+            android:name=".Camera"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Bluetooth"
+            android:name=".Bluetooth"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Torch"
+            android:name=".Torch"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Calci"
+            android:name=".Calci"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Normal"
+            android:name=".Normal"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Otp"
+            android:name=".Otp"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Menu"
+            android:name=".Menu"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.LoginOffline"
+            android:name=".LoginOffline"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.Offline"
+            android:name=".Offline"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.GmailLogin"
+            android:name=".GmailLogin"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.NormalLogin"
+            android:name=".NormalLogin"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.multipurposeapp.OtpLogin"
+            android:name=".OtpLogin"
             android:screenOrientation="portrait" />
-        <activity android:name="com.example.multipurposeapp.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
