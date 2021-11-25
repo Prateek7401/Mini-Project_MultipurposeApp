@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NetCampProject">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".Tic_Tac1"
             android:exported="false" />
         <activity android:name=".Feedback" />

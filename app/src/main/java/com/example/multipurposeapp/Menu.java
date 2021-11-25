@@ -19,7 +19,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Menu extends AppCompatActivity {
-    ImageButton i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i33;
+    ImageButton i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i33,i44;
     Button b1;
     Vibrator v1;
     FirebaseAuth firebaseAuth;
@@ -44,6 +44,7 @@ public class Menu extends AppCompatActivity {
         i12=(ImageButton)findViewById(R.id.imageButtonM12);
         i13=(ImageButton)findViewById(R.id.imageButtonM13);
         i33=(ImageButton) findViewById(R.id.imageButtontic);
+        i44=(ImageButton)findViewById(R.id.imageButton144);
         b1=(Button)findViewById(R.id.buttonLogout);
 
 
@@ -163,6 +164,15 @@ public class Menu extends AppCompatActivity {
                 finish();
             }
         });
+        i44.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent az= new Intent(Menu.this,MainActivity2.class);
+                startActivity(az);
+                finish();
+            }
+        });
+
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
